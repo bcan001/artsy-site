@@ -4,6 +4,9 @@ ruby "2.2.0"
 
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem "paperclip-dropbox", ">= 1.1.7"
+gem "figaro"
+
 
 gem 'rspec-rails'
 gem 'factory_girl_rails'
