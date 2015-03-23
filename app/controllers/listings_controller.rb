@@ -2,6 +2,8 @@ class ListingsController < ApplicationController
   before_action :set_listing, only: [:show, :edit, :update, :destroy]
 
   # GET /listings
+
+  
   # GET /listings.json
   def index
     @listings = Listing.all
