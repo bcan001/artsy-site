@@ -5,11 +5,13 @@ ruby "2.2.0"
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem "paperclip-dropbox", ">= 1.1.7"
+# figaro keeps secure data in your initializer files(auth keys, etc.) to being pushed to github
 gem "figaro"
 
 
 gem 'rspec-rails'
 gem 'factory_girl_rails'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
