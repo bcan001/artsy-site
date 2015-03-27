@@ -7,7 +7,7 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 gem "paperclip-dropbox", ">= 1.1.7"
 # figaro keeps secure data in your initializer files(auth keys, etc.) to being pushed to github
 gem "figaro"
-
+gem 'devise'
 
 gem 'rspec-rails'
 gem 'factory_girl_rails'
