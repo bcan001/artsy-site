@@ -18,6 +18,7 @@ RSpec.describe Listing, type: :model do
 		listing.should_not be_an_instance_of(String)
 	end
 
+
 end
 
 
